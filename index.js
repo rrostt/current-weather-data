@@ -4,6 +4,7 @@ const parser = require('fast-xml-parser')
 const xmlOptions = {
     attributeNamePrefix : "",
     ignoreAttributes : false,
+    parseAttributeValue: true
 }
 
 const getWeather = ({ lat, lon }) =>
