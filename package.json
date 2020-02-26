@@ -1,6 +1,6 @@
 {
   "name": "current-weather-data",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Get current weather data at a given location through yr.no",
   "main": "index.js",
   "scripts": {

@@ -28,62 +28,69 @@ The returned weather data looks something like this, and is a direct translation
 
 ```json
 {
-      "altitude": "131",
-      "latitude": "58",
-      "longitude": "12",
-      "temperature": {
-        "id": "TTT",
-        "unit": "celsius",
-        "value": "5.3"
-      },
-      "windDirection": {
-        "id": "dd",
-        "deg": "193.2",
-        "name": "S"
-      },
-      "windSpeed": {
-        "id": "ff",
-        "mps": "8.7",
-        "beaufort": "5",
-        "name": "Frisk bris"
-      },
-      "windGust": {
-        "id": "ff_gust",
-        "mps": "18.4"
-      },
-      "humidity": {
-        "unit": "percent",
-        "value": "94.3"
-      },
-      "pressure": {
-        "id": "pr",
-        "unit": "hPa",
-        "value": "995.7"
-      },
-      "cloudiness": {
-        "id": "NN",
-        "percent": "100.0"
-      },
-      "fog": {
-        "id": "FOG",
-        "percent": "0.0"
-      },
-      "lowClouds": {
-        "id": "LOW",
-        "percent": "99.8"
-      },
-      "mediumClouds": {
-        "id": "MEDIUM",
-        "percent": "79.6"
-      },
-      "highClouds": {
-        "id": "HIGH",
-        "percent": "100.0"
-      },
-      "dewpointTemperature": {
-        "id": "TD",
-        "unit": "celsius",
-        "value": "4.4"
-      }
-    }
-```
+  "altitude": 131,
+  "latitude": 58,
+  "longitude": 12,
+  "temperature": {
+    "id": "TTT",
+    "unit": "celsius",
+    "value": -2.2
+  },
+  "windDirection": {
+    "id": "dd",
+    "deg": 11.5,
+    "name": "N"
+  },
+  "windSpeed": {
+    "id": "ff",
+    "mps": 2.1,
+    "beaufort": 2,
+    "name": "Svak vind"
+  },
+  "windGust": {
+    "id": "ff_gust",
+    "mps": 4.1
+  },
+  "humidity": {
+    "unit": "percent",
+    "value": 69.9
+  },
+  "pressure": {
+    "id": "pr",
+    "unit": "hPa",
+    "value": 996.6
+  },
+  "cloudiness": {
+    "id": "NN",
+    "percent": 5.8
+  },
+  "fog": {
+    "id": "FOG",
+    "percent": 0
+  },
+  "lowClouds": {
+    "id": "LOW",
+    "percent": 0.3
+  },
+  "mediumClouds": {
+    "id": "MEDIUM",
+    "percent": 0
+  },
+  "highClouds": {
+    "id": "HIGH",
+    "percent": 5.5
+  },
+  "temperatureProbability": {
+    "unit": "probabilitycode",
+    "value": 0
+  },
+  "windProbability": {
+    "unit": "probabilitycode",
+    "value": 0
+  },
+  "dewpointTemperature": {
+    "id": "TD",
+    "unit": "celsius",
+    "value": -7.2
+  }
+}```
