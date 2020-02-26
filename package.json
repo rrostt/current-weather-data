@@ -1,13 +1,17 @@
 {
   "name": "current-weather-data",
-  "version": "2.0.0",
-  "description": "",
+  "version": "2.0.1",
+  "description": "Get current weather data at a given location through yr.no",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Mattias Rost",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rrostt/current-weather-data"
+  },
   "dependencies": {
     "axios": "^0.19.2",
     "fast-xml-parser": "^3.16.0"
